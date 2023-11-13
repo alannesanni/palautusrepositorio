@@ -30,6 +30,7 @@ class UserRepository:
                 f"User with username {user.username} already exists"
             )
 
+        
         users.append(user)
 
         self._users = users
